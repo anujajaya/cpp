@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
+//added comment demo
 int main()
 {
     int num[20], number;
     string flag = "yes";
 
     for (int i = 0; i <= 20; i++)
-    {
-        cout << "enter number for position " << i << endl;
+    {cout << "enter number for position " << i << endl;
         cin >> num[i];
+        
         cout << "position :" << i << "\t"
              << "value :" << num[i] << "\n"
              << endl;
@@ -16,7 +17,7 @@ int main()
 
     while (flag == "yes")
     {
-        cout << "number for" << endl;
+        cout << "number for check" << endl;
         cin >> number;
         for (int j = 0; j <= 20; j++)
         {
