@@ -3,12 +3,13 @@ using namespace std;
 int main()
 {
     int km = 0;
-    //haripad
+    // haripad
     km = km + 1;
     cout << km << endl;
     km++;
     cout << km << endl;
     km++;
+    cout << "nothing here " << endl;
     cout << km << endl;
     km++;
     cout << km << endl;
@@ -20,7 +21,7 @@ int main()
     cout << km << endl;
     km++;
     cout << km << endl;
-    //adoor
+    // adoor
     km--;
     cout << km << endl;
     km--;
